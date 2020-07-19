@@ -35,6 +35,7 @@ def find_a(arr)
   arr.select do |char|
     if char.start_with?("a")
       chars << char
+    end
   end
   chars
 end
