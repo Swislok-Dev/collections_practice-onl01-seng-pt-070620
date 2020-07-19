@@ -32,9 +32,9 @@ end
 
 def find_a(arr)
   chars = []
-  arr.select do |char|
-    if char.start_with?("a")
-      chars << char
+  arr.select { |char| chars << char if char.start_with?("a") }
+    # if char.start_with?("a")
+    #   chars << char
     end
   end
   # chars
