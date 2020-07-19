@@ -31,9 +31,11 @@ def kesha_maker(arr)
 end
 
 def find_a(arr)
+  chars = []
   arr.find do |char|
     if char.start_with?("a")
-      char
+      chars.push(char)
     end
   end
+  chars
 end
