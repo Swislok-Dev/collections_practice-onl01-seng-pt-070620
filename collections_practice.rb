@@ -36,6 +36,6 @@ def find_a(arr)
     # if char.start_with?("a")
     #   chars << char
 
-  end
+
   # chars
 end
