@@ -37,5 +37,5 @@ def find_a(arr)
       chars << char
     end
   end
-  chars
+  # chars
 end
