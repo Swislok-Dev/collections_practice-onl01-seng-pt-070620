@@ -36,5 +36,4 @@ def find_a(arr)
       return char
     end
   end
-
 end
