@@ -34,5 +34,5 @@ def find_a(arr)
   arr.find do |char|
     char.start_with("a")
   end
-  
+
 end
