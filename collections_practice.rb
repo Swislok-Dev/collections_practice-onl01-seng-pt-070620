@@ -45,3 +45,10 @@ def sum_array(arr)
   end
   sum
 end
+
+def add_s(arr)
+  [1, 2].each_with_index.collect{|element, index|}
+  if "#{index}" != 1
+    element.insert("s", index)
+  end
+end
