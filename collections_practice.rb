@@ -37,3 +37,11 @@ def find_a(arr)
     # if char.start_with?("a")
     #   chars << char
 end
+
+def sum_array(arr)
+  sum = 0
+  arr.each do |add|
+    sum += add
+  end
+  sum
+end
