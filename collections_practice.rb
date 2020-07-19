@@ -33,7 +33,7 @@ end
 def find_a(arr)
   arr.find do |char|
     if char.start_with?("a")
-      return char
+      char
     end
   end
 end
