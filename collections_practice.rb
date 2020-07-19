@@ -36,6 +36,7 @@ def find_a(arr)
     if char.start_with?("a")
       chars.push(char)
     end
+    chars
   end
-  chars
+  
 end
