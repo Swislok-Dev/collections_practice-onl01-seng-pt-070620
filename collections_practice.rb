@@ -43,4 +43,5 @@ def sum_array(arr)
   arr.each do |add|
     sum += add
   end
+  sum
 end
