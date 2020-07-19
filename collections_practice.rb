@@ -30,4 +30,6 @@ def kesha_maker(arr)
   end
 end
 
-  
+def find_a(arr)
+  arr.find { |char| return char if char.start_with?("a")  }
+end
