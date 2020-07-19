@@ -51,6 +51,6 @@ def add_s(arr)
     element.insert(-1, "s") if arr[index] != 1
     # if arr.index != 1
     #   element.insert(-1, "s")
-    # end
+    end
   end
 end
